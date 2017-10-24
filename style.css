@@ -46,7 +46,10 @@ article{
   height: 50px;
 }
 .header-item-list.shrink{
-  margin-top: -45px;
+  margin-top: -115px;
+}
+.header-title.shrink{
+  font-size: 20px;
 }
 
 

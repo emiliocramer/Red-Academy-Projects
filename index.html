@@ -32,12 +32,13 @@
           $(window).scroll(function(){
             var scroll = scrollY;
             if (scroll >= shrinkHeader){
-              $('header').addClass('shrink')
-              $('header-item-list').addClass('shrink')
-            }
-            else{
-              $('header').removeClass('shrink')
-              $('header-item-list').removeClass('shrink')
+              $('.header').addClass('shrink')
+              $('.header-item-list').addClass('shrink')
+              $('.header-title').addClass('shrink')
+            }else{
+              $('.header').removeClass('shrink')
+              $('.header-item-list').removeClass('shrink')
+              $('.header-title').removeClass('shrink')
 
             }
           })
