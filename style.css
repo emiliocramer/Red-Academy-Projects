@@ -9,8 +9,9 @@ body{
   margin-left: auto;
   margin-right: auto;
   background-color: rgb(204, 82, 0);
+  transition: height 0.3s;
 }
-.header ul{
+.header-item-list{
   padding: 0px;
   margin-right: 15%;
   width: 50%;
@@ -40,6 +41,12 @@ article{
 }
 .header:hover + article{
   display: block;
+}
+.header.shrink{
+  height: 50px;
+}
+.header-item-list.shrink{
+  margin-top: -45px;
 }
 
 
