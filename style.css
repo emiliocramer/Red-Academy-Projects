@@ -1,0 +1,50 @@
+body{
+  margin: 0px;
+  height: 3000px;
+}
+.header{
+  width: 99.95%;
+  height: 100px;
+  position: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(204, 82, 0);
+}
+.header ul{
+  padding: 0px;
+  margin-right: 15%;
+  width: 50%;
+  float: right;
+  margin-top: -90px;
+}
+.header-item{
+  width: 30%;
+  text-align: right;
+  float: right;
+  font-family: sans-serif;
+  display: inline-block;
+}
+.header-title{
+  width: 29.5%;
+  margin-top: 10px;
+  font-size: 65px;
+  text-align: right;
+  font-family: sans-serif;
+  padding: 1px;
+}
+article{
+  position: absolute;
+  margin-top: 100px;
+  z-index: -1;
+  display: none;
+}
+.header:hover + article{
+  display: block;
+}
+
+
+
+
+
+
+
