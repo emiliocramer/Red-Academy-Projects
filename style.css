@@ -4,7 +4,7 @@ body{
 }
 .header{
   width: 99.95%;
-  height: 75px;
+  height: 300px;
   position: fixed;
   transition: 0.5;
   transition: height 0.5s;
@@ -18,45 +18,48 @@ body{
 
 .header-subsection{
   width: 80%;
-  height: 100px;
+  height: 75px;
   margin: auto auto;
   transition: 0.5s;
+  display: flex;
+  align-items: center;
 }
 .header-subsection.shrink{
   height: 50px;
 }
 
 
+
+
 .header-title{
   position: absolute;
   font-size: 50px;
-  top: -28px;
   transition: 0.5s;
+  display: flex;
+  align-items: center;
+  margin: 0;
 }
 .header-title.shrink{
   font-size: 30px;
-  top: -19px;
 }
 
 
 .header-item-list{
 position: absolute;
 right: 12%;
-top: 7px;
 font-size: 20px;
 transition: 0.5s;
 }
 .header-item-list.shrink{
-  top: -8px;
   font-size: 17px;
 }
 
 
-.header-item{
-  display: inline;
-}
-.header-first-item{
+ .header-item:nth-child(n+0){       /*before the last one */
   margin: 0 100 0 0%;
+}
+.header-item:last-child{
+  margin: 0 0 0 0%;
 }
 
 .main-article{
