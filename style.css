@@ -58,21 +58,18 @@ article{
 body{
   margin: 0px;
   height: 4000px;
-  background: rgb(216, 77, 77)
 }
 .header{
   width: 99.95%;
-  height: 100px;
+  height: 75px;
   position: fixed;
-  background: transparent;
-  transition: 0.3;
-  transition: height 0.3s;
-  z-index: 1;
-  
+  transition: 0.5;
+  transition: height 0.5s;
+  background-color: rgba(0,0,0,.15)
 }
 .header.shrink{
-  height: 50px;
-  background: transparent;
+  height: 37.5px;
+  background-color: rgba(0,0,0,.25)
 }
 
 
@@ -80,7 +77,7 @@ body{
   width: 80%;
   height: 100px;
   margin: auto auto;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 .header-subsection.shrink{
   height: 50px;
@@ -89,25 +86,25 @@ body{
 
 .header-title{
   position: absolute;
-  font-size: 60px;
-  top: -22px;
-  transition: 0.3s;
+  font-size: 50px;
+  top: -28px;
+  transition: 0.5s;
 }
 .header-title.shrink{
   font-size: 30px;
-  top: -11px;
+  top: -19px;
 }
 
 
 .header-item-list{
 position: absolute;
 right: 12%;
-top: 13px;
-font-size: 25px;
-transition: 0.3s;
+top: 7px;
+font-size: 20px;
+transition: 0.5s;
 }
 .header-item-list.shrink{
-  top: -1px;
+  top: -8px;
   font-size: 17px;
 }
 
@@ -116,8 +113,18 @@ transition: 0.3s;
   display: inline;
 }
 .header-first-item{
-  margin: 0 200 0 0%;
+  margin: 0 100 0 0%;
 }
+
+.main-article{
+  background-image: url("imgs/kayak-bkgd.jpg");
+  background-repeat: no-repeat;
+  height: 829px;
+  width: 100%;
+  background-size: cover;
+  background-color: red;
+}
+
 
 
 
