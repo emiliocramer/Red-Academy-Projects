@@ -1,4 +1,4 @@
-body{
+/* body{
   margin: 0px;
   height: 3000px;
 }
@@ -10,6 +10,7 @@ body{
   margin-right: auto;
   background-color: rgb(204, 82, 0);
   transition: height 0.3s;
+  transition: 0.3s;
 }
 .header-item-list{
   padding: 0px;
@@ -17,6 +18,7 @@ body{
   width: 50%;
   float: right;
   margin-top: -90px;
+  transition: 0.3s;
 }
 .header-item{
   width: 30%;
@@ -44,13 +46,80 @@ article{
 }
 .header.shrink{
   height: 50px;
+  background-color: transparent;
 }
 .header-item-list.shrink{
   margin-top: -115px;
 }
 .header-title.shrink{
-  font-size: 20px;
+  font-size: 20px;  
+  
+} */
+body{
+  margin: 0px;
+  height: 4000px;
+  background: rgb(216, 77, 77)
 }
+.header{
+  width: 99.95%;
+  height: 100px;
+  position: fixed;
+  background: transparent;
+  transition: 0.3;
+  transition: height 0.3s;
+  z-index: 1;
+  
+}
+.header.shrink{
+  height: 50px;
+  background: transparent;
+}
+
+
+.header-subsection{
+  width: 80%;
+  height: 100px;
+  margin: auto auto;
+  transition: 0.3s;
+}
+.header-subsection.shrink{
+  height: 50px;
+}
+
+
+.header-title{
+  position: absolute;
+  font-size: 60px;
+  top: -22px;
+  transition: 0.3s;
+}
+.header-title.shrink{
+  font-size: 30px;
+  top: -11px;
+}
+
+
+.header-item-list{
+position: absolute;
+right: 12%;
+top: 13px;
+font-size: 25px;
+transition: 0.3s;
+}
+.header-item-list.shrink{
+  top: -1px;
+  font-size: 17px;
+}
+
+
+.header-item{
+  display: inline;
+}
+.header-first-item{
+  margin: 0 200 0 0%;
+}
+
+
 
 
 
