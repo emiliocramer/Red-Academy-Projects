@@ -4,11 +4,13 @@ body{
 }
 .header{
   width: 99.95%;
-  height: 300px;
+  height: 75px;
   position: fixed;
   transition: 0.5;
   transition: height 0.5s;
-  background-color: rgba(0,0,0,.15)
+  background-color: rgba(0,0,0,.15);
+  display: flex;
+  align-items: center;
 }
 .header.shrink{
   height: 37.5px;
@@ -21,8 +23,6 @@ body{
   height: 75px;
   margin: auto auto;
   transition: 0.5s;
-  display: flex;
-  align-items: center;
 }
 .header-subsection.shrink{
   height: 50px;
@@ -38,6 +38,7 @@ body{
   display: flex;
   align-items: center;
   margin: 0;
+  height: 100%;
 }
 .header-title.shrink{
   font-size: 30px;
@@ -49,6 +50,11 @@ position: absolute;
 right: 12%;
 font-size: 20px;
 transition: 0.5s;
+display: flex;  
+list-style-type: none;
+margin: 0;
+height: 100%;
+align-items: center;
 }
 .header-item-list.shrink{
   font-size: 17px;
@@ -61,7 +67,6 @@ transition: 0.5s;
 .header-item:last-child{
   margin: 0 0 0 0%;
 }
-
 .main-article{
   background-image: url("imgs/kayak-bkgd.jpg");
   background-repeat: no-repeat;
