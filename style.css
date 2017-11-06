@@ -2,19 +2,24 @@ body{
   margin: 0px;
   height: 4000px;
 }
+a{
+  text-decoration: none;
+  color: black;
+}
+.text{
+  font-family: 'Helvetica Neue';
+}
 .header{
   width: 99.95%;
   height: 75px;
   position: fixed;
   transition: 0.5;
   transition: height 0.5s;
-  background-color: rgba(0,0,0,.15);
-  display: flex;
-  align-items: center;
+  background-color: rgba(255,255,255,.15);  
 }
 .header.shrink{
   height: 37.5px;
-  background-color: rgba(0,0,0,.25)
+  background-color: rgba(255,255,255,.35)
 }
 
 
@@ -33,7 +38,7 @@ body{
 
 .header-title{
   position: absolute;
-  font-size: 50px;
+  font-size: 34px;
   transition: 0.5s;
   display: flex;
   align-items: center;
@@ -41,14 +46,14 @@ body{
   height: 100%;
 }
 .header-title.shrink{
-  font-size: 30px;
+  font-size: 25px;
 }
 
 
 .header-item-list{
 position: absolute;
 right: 12%;
-font-size: 20px;
+font-size: 15px;
 transition: 0.5s;
 display: flex;  
 list-style-type: none;
@@ -57,10 +62,8 @@ height: 100%;
 align-items: center;
 }
 .header-item-list.shrink{
-  font-size: 17px;
+  font-size: 12px;
 }
-
-
  .header-item:nth-child(n+0){       /*before the last one */
   margin: 0 100 0 0%;
 }
@@ -74,7 +77,45 @@ align-items: center;
   width: 100%;
   background-size: cover;
   background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+.article-main-section{
+  height: 80%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.article-subsection{
+  text-align: center;
+}
+.main-button{
+  background-color: rgba(255, 255, 255, .1);
+  color: black;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 5px; 
+  transition: 0.5s;
+  font-size: 15px;
+}
+.enjoy-outdoors-main{
+  font-size: 45px;
+}
+.rent-canoes-main{
+  font-size: 25px;
+}
+.main-button:hover{
+  background-color: rgba(255, 255, 255, .2);
+}
+.main-button:fucus{
+  outline: 0;
+}
+
 
 
 
