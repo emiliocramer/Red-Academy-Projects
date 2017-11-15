@@ -117,15 +117,11 @@ width: 50%;
   width: 90%;
   margin: 40px auto auto auto;
   display: flex;
-  justify-content: center;
 }
 
 .rental-container{
 width: 25%;
-height: auto;
-display: flex;
-justify-content: center;
-align-items: center;
+margin: auto;
 text-align: center;
 border-right: 2px solid rgba(106, 105, 105, 0.371);
 }
@@ -153,19 +149,24 @@ border-right: 2px solid rgba(106, 105, 105, 0.371);
   .about-img{
     width: 100%;  
   }
+
   .rentals{
     height: auto;
     flex-direction: column;
   }
+
   .rental-img{
     width: 100%;
   }
+
   .rental-price-main{
     flex-direction: column;
+    height: auto;
   }
   .rental-container{
     border-right: none;
     border-bottom: 2px solid rgba(106, 105, 105, 0.371);
+    width: 90%;
   }
 }
 
