@@ -1,112 +1,58 @@
-<!-- <html>
-  <head>
-    <title>
-      Perfect Paddles
-    </title>
-    <link rel="stylesheet" href="style.css">    
-  </head>
-
-  <body>
-    <header class="header" >
-      <div class="header-subsection">
-          <h1 class="header-title text">Perfect Paddles</h1>
-        <ul class="header-item-list">
-          <li class="header-item text">About</li>
-          <li class="header-item text">Rentals</li>
-          <li class="header-item text">Location</li>
-        </ul> 
-      </div>
-    </header>
-
-    <article class="main-article">
-      <div class="article-main-section">
-        <div class="article-subsection">
-          <h1 class="enjoy-outdoors-main text">
-            Enjoy the Great Outdoors from the water
-          </h1>
-          <h5 class="text rent-canoes-main">
-              Rent our canoes year-round, take a lesson, or join a group tour.
-          </h5>
-          <button class="main-button text">
-              <a href="#">Sign me up!</a>
-          </button>
-        </div>
-      </div>
-    </article>
-
-    <article class="about-main">
-      <h1 class="text">About</h1>
-        <article class="about-section">
-          <div>
-            <p class="text about-text">
-                Perfect Paddles Kayak Rentals Co. offers you the unique opportunity to 
-                experience the great outdoors in one of our single or double kayaks.  We 
-                cater to all skill levels and abilities, and offer a variety of lessons 
-                and tours too.
-            </p>
-          </div>
-          <div>
-            <img class="about-img" src="imgs/girl-in-kayak.jpg">
-          </div>
-        </article>
-    </article>
-
-
-
-    <script src="https://code.jquery.com/jquery-3.2.1.js"
-    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-    crossorigin="anonymosus"></script>
-    <script>
-       $(function(){
-          var shrinkHeader = 100;
-          $(window).scroll(function(){
-            var scroll = scrollY;
-            if (scroll >= shrinkHeader){
-              $('.header').addClass('shrink')
-              $('.header-item-list').addClass('shrink')
-              $('.header-title').addClass('shrink')
-              $('.header-subsection').addClass('shrink')
-            }else{
-              $('.header').removeClass('shrink')
-              $('.header-item-list').removeClass('shrink')
-              $('.header-title').removeClass('shrink')
-              $('.header-subsection').removeClass('shrink')
-
-            }
-          })
-    
-        })
-    </script>
-  </body>
-</html> -->
-
-
-
 <html>
   <head>
     <title>Perfect Paddles</title>
     <link rel="stylesheet" href="style.css">    
-    <link href='http://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>   
+    <link href='http://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/ css'>   
   </head>
 
   <body>
-    <section class="header">
-    </section>
-    
-    <article class="main">
-      <div class="main-bkgd">
+    <article class="main-all">
+      <section class="header">
+      </section>
+      
+      <article class="main">
+        <div class="main-bkgd">
 
-      </div>
+        </div>
+      </article>
+      
+      <h1 class="about-title text">
+        About
+      </h1>
+
+      <article class="about">
+        <p class="text about-p"> 
+          Perfect Paddles Kayak Rentals Co. offers you the unique opportunity to experience the great outdoors in one of our single or double kayaks. <br /> <br />  We cater to all skill levels and abilities, and offer a variety of lessons and tours too.
+        </p>      
+        <img class="about-img" src="imgs/girl-in-kayak.jpg">
+      </article>
+
+      <h1 class="text rental-title">
+        Rentals
+      </h1>
+      <article class="rentals">
+        <p class="text rental-p">
+            All rental prices include basic paddles, life jackets, splash protection, and a safety demonstration.<br /> <br />
+            Please note that we require 24 hours notice for all cancellations, and late returns will be charged accordingly.<br /> <br />
+            Call (604) 604-6040 to book now!
+        </p>
+        <img class="rental-img" src="imgs/coffee-adventure.jpg">
+      </article>
+
+      <article class="rental-price-main">
+        <div class="rental-container">
+            <p class="text">Duration: 2 hours<br /><br /> Single: $35<br /><br />Double: $55</p>
+        </div>
+        <div class="rental-container">
+          <p class="text"> Duration: 1 Day<br /><br />Single: $90<br /><br /> Double: $130</p>
+        </div>
+        <div class="rental-container">
+          <p class="text">Duration: Extra Day<br /><br />Single: $45<br /><br />Double: $65</p>
+        </div>
+        <div class="rental-container">
+
+        </div>
+      </article>
     </article>
-    
-    <h1 class="about-title text">About</h1>
-
-    <article class="about">
-      <p class="text about-p"> 
-        Perfect Paddles Kayak Rentals Co. offers you the unique opportunity to experience the great outdoors in one of our single or double kayaks.  We cater to all skill levels and abilities, and offer a variety of lessons and tours too.
-      </p>      
-      <img class="about-img" src="imgs/girl-in-kayak.jpg">
-    </article>
-
   </body>
 </html>
