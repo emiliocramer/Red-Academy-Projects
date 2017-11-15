@@ -160,6 +160,13 @@ border-right: 2px solid rgba(106, 105, 105, 0.371);
   .rental-img{
     width: 100%;
   }
+  .rental-price-main{
+    flex-direction: column;
+  }
+  .rental-container{
+    border-right: none;
+    border-bottom: 2px solid rgba(106, 105, 105, 0.371);
+  }
 }
 
 
