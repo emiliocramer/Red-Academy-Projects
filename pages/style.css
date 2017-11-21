@@ -20,6 +20,8 @@ p{
 
 h1{
   font-family: 'pacifico';
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .text{
@@ -33,36 +35,33 @@ h1{
   background-color: white;
 }
 
+
+
+
 .header{
   width: 99.95%;
   max-width: 1600px;
   height: 75px;
   background-color: rgba(0, 0, 0, 0.3);
-  position: fixed;
-  transition: 0.5s;
+  position: absolute;
   z-index: 3;
 }
 
 .main{
   width: 100%;
-  background-image: url("../imgs/kayak-bkgd.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%;
+  height: auto;
+  border: 1px solid black;
   position: relative;
   z-index: 1;
 }  
 
 .main-bkgd{
   width: 100%;
-  height: 100%;
-  position: relative;
-  z-index: 2
+  height: auto;
 }
 
 .about{
   width: 90%;
-  height: 450px;
   display: flex;
   align-items: center;
   margin: auto auto;
@@ -70,11 +69,11 @@ h1{
 
 .about-title{
   text-align: center;
-  font-size: 40px;
+  font-size: 60px;
 }
 
 .about-img{
-width: 50%; 
+ width: 50%; 
  height: auto;
  flex-grow: 1;
  box-shadow: 0px 0px 20px grey;
@@ -88,7 +87,6 @@ width: 50%;
 
 .rentals{
   width: 90%;
-  height: 450px;
   display: flex;
   align-items: center;
   margin: auto auto;
@@ -96,7 +94,7 @@ width: 50%;
 
 .rental-title{
   text-align: center;
-  font-size: 40px;
+  font-size: 60px;
 }
 
 .rental-img{
@@ -129,11 +127,6 @@ border-right: 2px solid rgba(106, 105, 105, 0.371);
   border: none;
 }
 
-.extra-space{
-  height: 300px;
-  width: 100%;
-}
-
 @media all and (max-width: 960px){
   .about-p, .rental-p{
     font-size: 20px;
@@ -146,7 +139,10 @@ border-right: 2px solid rgba(106, 105, 105, 0.371);
   .rental-container{
     width: 49%;
   }
-
+  h1{
+    margin-top: 40px;
+    margin-bottom: 40px;  
+  }
   .last-container-tablet{
     border: none;
   }
@@ -190,6 +186,10 @@ border-right: 2px solid rgba(106, 105, 105, 0.371);
   .header{
     height: 40px;
   }
+
+}
+
+.footer-main{
 
 }
 
