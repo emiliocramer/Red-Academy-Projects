@@ -159,8 +159,7 @@ border-right: 2px solid rgba(106, 105, 105, 0.371);
     height: auto;
   }
   .main-bkgd{
-    width: 100vw;
-    height: auto;
+    width: 150%;
   }
   .about-img{
     width: 100%;  
