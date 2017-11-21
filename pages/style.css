@@ -158,7 +158,10 @@ border-right: 2px solid rgba(106, 105, 105, 0.371);
     flex-direction: column;
     height: auto;
   }
-
+  .main-bkgd{
+    width: 100vw;
+    height: auto;
+  }
   .about-img{
     width: 100%;  
   }
