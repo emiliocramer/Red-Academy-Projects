@@ -138,19 +138,24 @@ border-right: 2px solid rgba(106, 105, 105, 0.371);
   .about-p, .rental-p{
     font-size: 20px;
   }
+
   .rental-price-main{
     flex-wrap: wrap;
   }
+
   .rental-container{
     width: 49%;
     margin: 0;
   }
+
   .last-container-tablet{
     border: none;
   }
+
   .first-two-rentals{
-    margin-bottom: 30px;
+    margin-bottom: 60px;
   }
+
 }
 
 @media all and (max-width: 800px){
@@ -158,6 +163,7 @@ border-right: 2px solid rgba(106, 105, 105, 0.371);
     flex-direction: column;
     height: auto;
   }
+
   .about-img{
     width: 100%;  
   }
@@ -175,14 +181,17 @@ border-right: 2px solid rgba(106, 105, 105, 0.371);
     flex-direction: column;
     height: auto;
   }
+
   .rental-container{
     border-right: none;
     border-bottom: 2px solid rgba(106, 105, 105, 0.371);
     width: 90%;
   }
+
   .header{
     height: 40px;
   }
+  
 }
 
 
