@@ -12,9 +12,13 @@ body{
   margin: 0;
   background-color: rgb(182, 167, 167);
 }
+
 a{
   text-decoration: none;
   color: black;
+}
+ul{
+  list-style: none;
 }
 p{
   font-family: 'karla';
@@ -57,15 +61,17 @@ li{
 .header ul{
     width: 90%;
     margin: auto;
+    display: flex;
+    flex-direction: row;
 }
 
 .header li{
-  display: inline-block;
 }
 
 .header-item-first{
   width: 60%;
   font-size: 30px;
+  display: relative;
 }
 
 .header-item{ 
@@ -73,7 +79,7 @@ li{
   position: relative;
   left: 15%;
   font-size: 20px;
-  top: -5px;
+  top: 10px;
   margin-right: 25px;
 }
 
@@ -162,7 +168,16 @@ border-right: 2px solid rgba(106, 105, 105, 0.371);
   }
 
   .header-item-first{
-    visibility: none;
+    display: none;
+  }
+  .header li{
+    text-align: center;
+    font-size: 25px;
+  }
+  .header-item{
+    width: 33%;
+    top: 0;
+    left: 0;
   }
 
   .rental-price-main{
@@ -185,7 +200,7 @@ border-right: 2px solid rgba(106, 105, 105, 0.371);
   }
 
 }
-
+ 
 @media all and (max-width: 800px){
   .about{
     flex-direction: column;
