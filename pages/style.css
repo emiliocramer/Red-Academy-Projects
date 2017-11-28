@@ -44,7 +44,11 @@ li{
   background-color: white;
 }
 
-
+.header-phone-dropdown{
+  height: 200px;
+  width: 100%;  
+  border: 1px solid black;
+}
 
 
 .header{
@@ -172,7 +176,7 @@ border-right: 2px solid rgba(106, 105, 105, 0.371);
   }
   .header li{
     text-align: center;
-    font-size: 25px;
+    font-size: 25px;  
   }
   .header-item{
     width: 33%;
