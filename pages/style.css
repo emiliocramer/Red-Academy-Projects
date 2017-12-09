@@ -17,9 +17,11 @@ a{
   text-decoration: none;
   color: black;
 }
+
 ul{
   list-style: none;
 }
+
 p{
   font-family: 'karla';
   color: rgb(100, 100, 100);
@@ -30,9 +32,11 @@ h1{
   margin-top: 60px;
   margin-bottom: 60px;
 }
+
 li{
   font-family: 'pacifico';
 }
+
 .text{
   line-height: 34px;
 }
@@ -43,9 +47,6 @@ li{
   margin: auto auto;
   background-color: white;
 }
-
-
-
 
 .header{
   width: 99.95%;
@@ -63,9 +64,6 @@ li{
     margin: auto;
     display: flex;
     flex-direction: row;
-}
-
-.header li{
 }
 
 .header-item-first{
@@ -162,6 +160,24 @@ border-right: 2px solid rgba(106, 105, 105, 0.371);
   border: none;
 }
 
+.location-main{
+  height: 400px;
+  width: 100%;
+  border: 1px solid black;
+  margin-top: 10px;
+}
+
+.location-title{
+  margin: 0;
+  font-size: 60px;
+  text-align: center;
+}
+.location-main p{
+  text-align: center;
+  padding: 10px 10px;
+  font-size: 20px;
+}
+
 @media all and (max-width: 960px){
   .about-p, .rental-p{
     font-size: 20px;
@@ -170,10 +186,12 @@ border-right: 2px solid rgba(106, 105, 105, 0.371);
   .header-item-first{
     display: none;
   }
+
   .header li{
     text-align: center;
     font-size: 25px;  
   }
+
   .header-item{
     width: 33%;
     top: 0;
@@ -187,10 +205,12 @@ border-right: 2px solid rgba(106, 105, 105, 0.371);
   .rental-container{
     width: 49%;
   }
+
   h1{
     margin-top: 40px;
     margin-bottom: 40px;  
   }
+
   .last-container-tablet{
     border: none;
   }
@@ -206,10 +226,12 @@ border-right: 2px solid rgba(106, 105, 105, 0.371);
     flex-direction: column;
     height: auto;
   }
+
   .main-bkgd{
     width: 150%;
     margin-left: -50%;
   }
+
   .about-img{
     width: 100%;  
   }
@@ -233,16 +255,14 @@ border-right: 2px solid rgba(106, 105, 105, 0.371);
     border-bottom: 2px solid rgba(106, 105, 105, 0.371);
     width: 90%;
   }
+
   a{
     font-size: 20px;
   }
+
   .header{
     height: 40px;
   }
-
-}
-
-.footer-main{
 
 }
 
