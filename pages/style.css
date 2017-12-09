@@ -159,6 +159,7 @@ width: 25%;
 margin: auto;
 text-align: center;
 border-right: 2px solid rgba(106, 105, 105, 0.371);
+margin: auto;
 }
 
 .last-container{
@@ -267,6 +268,10 @@ border-right: 2px solid rgba(106, 105, 105, 0.371);
 
   .header{
     height: 40px;
+  }
+
+  .first-two-rentals{
+    margin-bottom: 0px;
   }
 
 }
