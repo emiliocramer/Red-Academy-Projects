@@ -167,9 +167,8 @@ margin: auto;
 }
 
 .location-main{
-  height: 400px;
+  height: 500px;
   width: 100%;
-  border: 1px solid black;
   margin-top: 10px;
 }
 
@@ -183,6 +182,33 @@ margin: auto;
   padding: 10px 10px;
   font-size: 20px;
 }
+
+.footer-main{
+  width: 100%;
+  height: 300px;
+  background-color: rgb(97, 97, 97);
+  margin-top: 20px;
+  display: flex;
+}
+
+.footer-left{
+  flex-grow: 1;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+
+.footer-right{
+  flex-grow: 1;
+  border: 1px solid black;
+}
+
+.footer-left p{
+  color: black;
+  position: relative;
+  left: 70px;
+}
+
 
 @media all and (max-width: 960px){
   .about-p, .rental-p{
