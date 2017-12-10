@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: 'karla';
-  src: url('../fonts/Karla-regular.ttf');
+  src: url('../fonts/Karla-Regular.ttf');
 }
 
 body{
@@ -196,17 +196,19 @@ margin: auto;
   border: 1px solid black;
   display: flex;
   align-items: center;
+  width: 49%;
 }
 
 .footer-right{
   flex-grow: 1;
   border: 1px solid black;
+  width: 49%;
 }
 
 .footer-left p{
   color: black;
   position: relative;
-  left: 70px;
+  font-size: 20px;
 }
 
 
