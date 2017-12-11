@@ -308,6 +308,18 @@ margin-right: 60px;
     margin-bottom: 0px;
   }
 
+  .footer-right{
+    display: none;
+  }
+
+  .footer-left{
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  .footer-left p{
+    left: 0;
+  }
 }
 
 
