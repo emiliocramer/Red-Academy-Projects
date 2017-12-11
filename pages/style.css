@@ -196,20 +196,17 @@ margin: auto;
   display: flex;
   align-items: center;
   width: 49%;
-  border: 1px solid black;
 }
 
 .footer-right{
   flex-grow: 1;
   width: 49%;
-  border: 1px solid black;
   align-items: center;
   display: flex;
   justify-content: flex-end;
 }
 
 .footer-right li{
-border: 1px solid black;
 margin-right: 60px;
 }
 
@@ -218,7 +215,6 @@ margin-right: 60px;
   position: relative;
   font-size: 20px;
   left: 60px;
-  border: 1px solid black;
 }
 
 
