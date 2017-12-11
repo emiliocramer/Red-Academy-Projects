@@ -193,16 +193,24 @@ margin: auto;
 
 .footer-left{
   flex-grow: 1;
-  border: 1px solid black;
   display: flex;
   align-items: center;
   width: 49%;
+  border: 1px solid black;
 }
 
 .footer-right{
   flex-grow: 1;
-  border: 1px solid black;
   width: 49%;
+  border: 1px solid black;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-right li{
+border: 1px solid black;
+margin-right: 60px;
 }
 
 .footer-left p{
@@ -210,6 +218,7 @@ margin: auto;
   position: relative;
   font-size: 20px;
   left: 60px;
+  border: 1px solid black;
 }
 
 
@@ -291,7 +300,7 @@ margin: auto;
     width: 90%;
   }
 
-  a{
+  header a{
     font-size: 20px;
   }
 
