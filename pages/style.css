@@ -30,6 +30,7 @@ ul{
 p{
   font-family: 'karla';
   color: rgb(100, 100, 100);
+  font-size: 16px;
 }
 
 h1{
@@ -88,21 +89,43 @@ li{
 
 .main{
   width: 100%;
-  height: auto;
-  position: relative;
-  z-index: 1;
+  height: 100%;
+  border: 1px solid black;
+
+  background:     
+    linear-gradient(
+    rgba(0, 0, 0, 0.6), 
+    rgba(0, 0, 0, 0.6)
+  ),
+  url("../imgs/kayak-bkgd.jpg");
+  background-size: cover;
 }  
 
 .main-text{
+  border: 1px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
+  flex-direction: column;
 }
 
 .main-text h1{
-  bottom: 700px;
-  position: relative;
-  font-size: 25px;
+  margin: 15;
+  font-size: 45;
+  color: white;
+}
+
+.main-text p{
+  margin: 15 0 30 0px;
+  color: white;
+}
+
+.main-text button{
+  padding: 15 30 15 30px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.522);
+  color: white;
 }
 
 .main-bkgd{
@@ -243,6 +266,14 @@ margin-right: 60px;
     display: none;
   }
 
+  .main-text h1{
+    font-size: 30;
+  }
+
+  .main-text p{
+    font-size: 15;
+  }
+
   .header li{
     text-align: center;
     font-size: 25px;  
@@ -286,6 +317,14 @@ margin-right: 60px;
   .main-bkgd{
     width: 150%;
     margin-left: -50%;
+  }
+
+  .main-text h1{
+    font-size: 20;
+  }
+
+  .main-text p{
+    font-size: 10;
   }
 
   .about-img{
