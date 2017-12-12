@@ -93,6 +93,18 @@ li{
   z-index: 1;
 }  
 
+.main-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-text h1{
+  bottom: 700px;
+  position: relative;
+  font-size: 25px;
+}
+
 .main-bkgd{
   width: 100%;
   height: auto;
