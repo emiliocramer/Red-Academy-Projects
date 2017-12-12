@@ -58,7 +58,7 @@ li{
   max-width: 1600px;
   height: 75px;
   background-color: rgba(0, 0, 0, 0.3);
-  position: absolute;
+  position: fixed;
   display: flex;
   align-items: center;
   z-index: 3;
