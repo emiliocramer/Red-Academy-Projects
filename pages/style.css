@@ -242,6 +242,7 @@ border-right: 2px solid rgba(106, 105, 105, 0.371);
 
 .footer-right li{
 margin-right: 60px;
+margin-top: 10px;
 }
 
 .footer-left p{
